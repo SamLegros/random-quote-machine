@@ -1,0 +1,68 @@
+body {
+  background: #5b5b5b;
+}
+
+.myQuoteBox {
+  background: #FFFFFF;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 85px;
+  padding: 40px 50px 40px 50px;
+  text-align: center;
+}
+
+.myAuthor,
+.quoteIcon {
+  opacity: 0;
+}
+
+.myAuthor {
+  text-align: right;
+  margin: 30px 0px 30px 0px;
+}
+
+.myButtons {
+  display: block;
+}
+
+.mySocialButton {
+  background: #5b5b5b;
+  height: 45px;
+  padding: 0 15px 0 15px;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+}
+
+.myNewQuoteButton {
+  background: #5b5b5b;
+  height: 45px;
+  padding: 8px 15px 0 15px;
+  float: right;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.mySocialButton:hover,
+.myNewQuoteButton:hover {
+  opacity: 0.9;
+  color: #FFFFFF;
+}
+
+.myNewQuoteButton:visited,
+.myNewQuoteButton:active,
+.myNewQuoteButton:focus {
+  color: #FFFFFF;
+}
+
+.myFooter {
+  margin-top: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
